@@ -1,6 +1,5 @@
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES, Discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS] });
 const Discord = require('discord.js');
-const client = new Discord.Client();
 const serverId = '1039582486402957322'; // Remplacez par l'ID de votre serveur
 
 client.on('ready', () => {
