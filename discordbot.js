@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -20,4 +19,9 @@ client.on('presenceUpdate', (oldMember, newMember) => {
   }
 });
 
-client.login("MTA5Mjg3NDE0NDQ3NzEwMjE2MA.Gdq0uq.9VwEUaIBrjvy6AccLqAdH19WlnWV1idQpds1S4");
+client.login(process.env.TOKEN);
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
