@@ -1,0 +1,13 @@
+{
+    "name": "mon-bot-discord",
+    "version": "1.0.0",
+    "description": "Mon bot Discord",
+    "main": "discordbot.js",
+    "dependencies": {
+      "discord.js": "^13.6.0",
+      "dotenv": "^10.0.0"
+    },
+    "scripts": {
+      "start": "node discordbot.js"
+    }
+  }
