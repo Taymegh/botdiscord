@@ -23,8 +23,9 @@ client.on('presenceUpdate', (oldMember, newMember) => {
 });
 
 client.login(process.env.TOKEN);
-
+const token = process.env.TOKEN;
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+
