@@ -20,4 +20,4 @@ client.on('presenceUpdate', (oldMember, newMember) => {
   }
 });
 
-client.login(process.env.TOKEN);
+client.login("MTA5Mjg3NDE0NDQ3NzEwMjE2MA.Gdq0uq.9VwEUaIBrjvy6AccLqAdH19WlnWV1idQpds1S4");
